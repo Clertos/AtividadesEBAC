@@ -14,7 +14,7 @@ for calculadora in range(10000):
 
 # Print que indicara quais as opções de calculo.
     print('Selecione uma das opções a seguir: Soma = 1, Subtração = 2, Divisão = 3, Multiplicação = 4')
-        selecao = int(input("Selecione a operação matemática:"))
+    selecao = int(input("Selecione a operação matemática:"))
 # Base da calculadora
     if selecao == 1:
         resultado = num1 + num2
